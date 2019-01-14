@@ -19,12 +19,17 @@
            fetch="https://github.com/DirtyUnicorns/"
            review="gerrit.dirtyunicorns.com" />
 
+  <!-- Scorpion remote -->
+  <remote  name="scorp"
+           revision="test"
+           fetch="https://github.com/ScorpionRom/" />
+
   <!-- DU REPOS -->
 
   <!-- General -->
   <project path="bionic" name="android_bionic" remote="du" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="du" />
-  <project path="build/make" name="android_build" remote="du" >
+  <project path="build/make" name="build_make" remote="scorp" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -34,14 +39,14 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/kati" name="android_build_kati" remote="du" />
-  <project path="build/soong" name="android_build_soong" remote="du" >
+  <project path="build/soong" name="build_soong" remote="scorp" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="manifest" name="android_manifest" remote="du" revision="p9x-caf" />
+  <!--<project path="manifest" name="android_manifest" remote="scorp" revision="test" />-->
 
   <!-- Device -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="du" revision="p9x-caf" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="scorp" revision="test" />
 
   <!-- External -->
   <project path="external/bson" name="android_external_bson" remote="du" revision="p9x-caf" />
@@ -107,18 +112,19 @@
   <project path="system/bt" name="android_system_bt" remote="du" revision="p9x-caf" />
   <project path="system/core" name="android_system_core" remote="du" revision="p9x-caf" />
   <project path="system/extras" name="android_system_extras" remote="du" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="du" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="scorp" />
+  <project path="system/qcom" name="system_qcom" remote="scorp" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="du" />
   <project path="prebuilts/clang/host/linux-x86" name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" remote="gitlab" revision="p9x" />
 
   <!-- Vendor -->
-  <project path="vendor/du" name="android_vendor_du" remote="du" >
+  <project path="vendor/scorpion" name="vendor_scorpion" remote="scorp" >
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="du" />
-  <project path="vendor/extras" name="android_vendor_extras" remote="du" />
+  <project path="vendor/extras" name="vendor_extras" remote="scorp" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="du" revision="p9x-caf" />
   <project path="vendor/qcom/opensource/cryptfs/hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="du" revision="p9x-caf" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="du" revision="p9x-caf" />
