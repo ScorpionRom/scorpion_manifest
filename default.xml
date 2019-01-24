@@ -718,4 +718,7 @@
   <!-- Add all tracked DU/AOSP repos -->
   <include name="p9x_default.xml" />
 
+  <!-- Add all tracked Scorpion repos -->
+  <include name="scorpion_default.xml" />
+
 </manifest>
