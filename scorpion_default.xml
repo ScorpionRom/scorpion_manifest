@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Scorpion -->
-  <project path="manifest" name="manifest" remote="scorp" revision="sr-2.x-caf" />
+  <project path="manifest" name="scorpion_manifest" remote="scorp" revision="sr-2.x-caf" />
   <project path="build/make" name="build_make" remote="scorp" revision="sr-2.x" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
