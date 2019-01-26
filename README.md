@@ -11,7 +11,7 @@ Initialize Source (Assuming you have a valid build environment setup):
         mkdir scorpion (or whatever you want to name the source folder)
 
         cd ~/scorpion
-        repo init -u https://github.com/ScorpionRom/manifest.git -b staging/sr9
+        repo init -u https://github.com/ScorpionRom/manifest.git -b test
 
 Sync Source:
 
