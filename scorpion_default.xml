@@ -31,7 +31,7 @@
   <project path="packages/apps/WeatherClient" name="android_packages_apps_WeatherClient" remote="scorp" revision="sr-2.x" />
 
   <!-- System -->
-  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="scorp" revision="sr-2.x-caf" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="scorp" revision="sr-2.x" />
 
   <!-- Vendor -->
   <project path="vendor/scorpion" name="vendor_scorpion" remote="scorp" revision="sr-2.x" />
