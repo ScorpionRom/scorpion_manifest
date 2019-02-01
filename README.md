@@ -11,7 +11,7 @@ Initialize Source (Assuming you have a valid build environment setup):
         mkdir scorpion (or whatever you want to name the source folder)
 
         cd ~/scorpion
-        repo init -u https://github.com/ScorpionRom/manifest.git -b test
+        repo init -u https://github.com/ScorpionRom/manifest.git -b sr-2.x-caf
 
 Sync Source:
 
@@ -37,6 +37,8 @@ Google for AOSP
 InvictrixRom
 
 Lineage OS
+
+Manuelle Moelleman for the boot animation
 
 Rinky McBally for our beloved logo and Wallpapers
 
