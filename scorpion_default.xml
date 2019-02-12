@@ -25,12 +25,14 @@
   <project path="frameworks/native" name="frameworks_native" remote="scorp" />
 
   <!-- Packages -->
+  <project path="packages/apps/Changelog" name="packages_apps_Changelog" remote="scorp" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="scorp" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="scorp" />
   <project path="packages/apps/Scorpion" name="packages_apps_Scorpion" groups="pdk-fs" remote="scorp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="scorp" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scorp" />
   <project path="packages/apps/WeatherClient" name="packages_apps_WeatherClient" remote="scorp" />
+
 
   <!-- System -->
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="scorp" />
