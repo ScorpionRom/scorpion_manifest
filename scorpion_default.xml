@@ -21,6 +21,7 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="scorp" revision="sr-2.x-caf" />
 
   <!-- Frameworks -->
+  <project path="frameworks/aoscp" name="frameworks_aoscp" remote="scorp" />
   <project path="frameworks/base" name="frameworks_base" remote="scorp" />
   <project path="frameworks/native" name="frameworks_native" remote="scorp" />
 
