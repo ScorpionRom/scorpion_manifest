@@ -22,6 +22,9 @@
   <project path="frameworks/base" name="frameworks_base" remote="scorp" />
   <project path="frameworks/native" name="frameworks_native" remote="scorp" />
 
+  <!-- External -->
+  <project path="external/google" name="external_google" remote="scorp" />
+
   <!-- Packages -->
   <project path="packages/apps/Changelog" name="packages_apps_Changelog" remote="scorp" />
   <project path="packages/apps/CustomDoze" name="packages_apps_CustomDoze" remote="scorp" />
