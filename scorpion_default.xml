@@ -18,6 +18,7 @@
   </project>
 
   <!-- Frameworks -->
+  <project path="frameworks/aoscp" name="frameworks_aoscp" remote="scorp" />
   <project path="frameworks/base" name="frameworks_base" remote="scorp" />
   <project path="frameworks/native" name="frameworks_native" remote="scorp" />
 
