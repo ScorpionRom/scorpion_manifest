@@ -45,6 +45,7 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="du" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="du" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="du" revision="p9x-caf" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" revision="p9x-caf" />
 
   <!-- Hardware -->
@@ -80,8 +81,8 @@
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="du" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="du" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="du" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="du" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="du" revision="p9x-caf" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="du" revision="p9x-caf" />
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="du" revision="p9x-caf" />
