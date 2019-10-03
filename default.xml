@@ -776,4 +776,7 @@
   <!-- Add all tracked DU/AOSP repos -->
   <include name="q10x_default.xml" />
 
+  <!-- Scorpion -->
+  <include name="scorpion_default.xml" />
+
 </manifest>
