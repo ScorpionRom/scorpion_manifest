@@ -27,24 +27,24 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-  </project>
-  <project path="build/soong" name="android_build_soong" remote="du" >
+  </project> -->
+<!--  <project path="build/soong" name="android_build_soong" remote="du" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-  <project path="manifest" name="android_manifest" remote="du" /> -->
+  </project> -->
+<!--  <project path="manifest" name="android_manifest" remote="du" /> -->
   <project path="platform_testing" name="android_platform_testing" remote="du" />
 
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="du" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="du" />
+<!--  <project path="frameworks/base" name="android_frameworks_base" remote="du" /> -->
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="du" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" />
-  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="du" />
+<!--  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" /> -->
+<!--  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="du" /> -->
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="du" />
@@ -52,11 +52,11 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="du" />
   <project path="system/update_engine" name="android_system_update_engine" remote="du" />
 
-  <!-- Vendor
-  <project path="vendor/du" name="android_vendor_du" remote="du" >
+  <!-- Vendor -->
+<!--  <project path="vendor/du" name="android_vendor_du" remote="du" >
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
-  </project>
-  <project path="vendor/extras" name="android_vendor_extras" remote="du" />
-  <project path="vendor/themes" name="android_vendor_themes" remote="du" /> -->
+  </project> -->
+<!--  <project path="vendor/extras" name="android_vendor_extras" remote="du" /> -->
+<!--  <project path="vendor/themes" name="android_vendor_themes" remote="du" /> -->
 
 </manifest>
