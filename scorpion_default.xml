@@ -4,10 +4,10 @@
   <!-- Scorpion remote -->
   <remote  name="scorp"
            revision="sr-3.x"
-           fetch="https://github.com/ThatSexyBeast/" />
+           fetch="https://github.com/ScorpionRom/" />
 
 <!-- Scorpion -->
-  <project path="manifest" name="manifest" remote="scorp" />
+  <project path="manifest" name="scorpion_manifest" remote="scorp" />
   <project path="build/make" name="build" remote="scorp" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
