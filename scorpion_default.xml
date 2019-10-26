@@ -29,6 +29,7 @@
 <!--  <project path="external/google" name="external_google" remote="scorp" /> -->
 
   <!-- Packages -->
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="scorp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="scorp" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scorp" />
 
