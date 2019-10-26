@@ -34,7 +34,9 @@
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scorp" />
 
   <!-- Vendor -->
-  <project path="vendor/scorpion" name="vendor_scorpion" remote="scorp" />
+  <project path="vendor/scorpion" name="vendor_scorpion" remote="scorp" >
+    <linkfile src="scripts/merge-aosp.py" dest="merge-aosp.py" />
+  </project>
   <project path="vendor/extras" name="vendor_extras" remote="scorp" />
   <project path="vendor/themes" name="vendor_themes" remote="scorp" />
 
