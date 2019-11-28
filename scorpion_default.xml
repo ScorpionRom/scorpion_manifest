@@ -32,6 +32,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="scorp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="scorp" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scorp" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="scorp" />
 
   <!-- Vendor -->
   <project path="vendor/scorpion" name="vendor_scorpion" remote="scorp" >
