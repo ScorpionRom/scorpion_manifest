@@ -785,13 +785,10 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- Remove unused AOSP repos -->
+  <!-- Remove some repos -->
   <include name="remove.xml" />
 
-  <!-- Add all tracked DU/AOSP repos -->
-  <include name="q10x_default.xml" />
-
-  <!-- Scorpion -->
+  <!-- Add some repos -->
   <include name="scorpion_default.xml" />
 
 </manifest>

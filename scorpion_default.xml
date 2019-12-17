@@ -1,12 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- ABC remote -->
+  <remote name="abc"
+           revision="q"
+           fetch="https://github.com/ezio84/" />
+
+  <!-- DU remote -->
+  <remote  name="du"
+           revision="q10x"
+           fetch="https://github.com/DirtyUnicorns/" />
+
   <!-- Scorpion remote -->
   <remote  name="scorp"
            revision="sr-3.x"
            fetch="https://github.com/ScorpionRom/" />
 
-<!-- Scorpion -->
+  <!-- Github remote -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- Gitlab remote -->
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <!-- ABC Repo's -->
+
+  <!-- General -->
+  <project path="bionic" name="abc_bionic" remote="abc" groups="pdk" />
+  <project path="build/kati" name="abc_build_kati" remote="abc" groups="pdk,tradefed" />
+  <project path="bootable/recovery" name="abc_bootable_recovery" groups="pdk" remote="abc" />
+
+  <!-- External -->
+  <project path="external/selinux" name="abc_external_selinux" remote="abc" />
+  <project path="external/toybox" name="abc_external_toybox" groups="pdk" remote="abc" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="abc_frameworks_av" groups="pdk" remote="abc" />
+  <project path="frameworks/native" name="abc_frameworks_native" groups="pdk" remote="abc" />
+  <project path="frameworks/opt/telephony" name="abc_frameworks_opt_telephony" groups="pdk" remote="abc" />
+  <project path="frameworks/rs" name="abc_frameworks_rs" groups="pdk" remote="abc" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="abc_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="abc" />
+  <project path="packages/apps/CellBroadcastReceiver" name="abc_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="abc" />
+  <project path="packages/apps/DocumentsUI" name="abc_packages_apps_DocumentsUI" remote="abc" />
+  <project path="packages/apps/EmergencyInfo" name="abc_packages_apps_EmergencyInfo" remote="abc" />
+  <project path="packages/apps/MusicFX" name="abc_packages_apps_MusicFX" groups="pdk-fs" remote="abc" />
+  <project path="packages/apps/PermissionController" name="abc_packages_apps_PackageInstaller" groups="pdk-fs" remote="abc" />
+  <project path="packages/apps/PhoneCommon" name="abc_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="abc" />
+  <project path="packages/apps/SettingsIntelligence" name="abc_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="abc" />
+  <project path="packages/apps/Stk" name="abc_packages_apps_Stk" remote="abc" />
+  <project path="packages/providers/DownloadProvider" name="abc_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" />
+  <project path="packages/providers/MediaProvider" name="abc_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" />
+  <project path="packages/providers/TelephonyProvider" name="abc_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" />
+  <project path="packages/services/Telecomm" name="abc_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="abc" />
+  <project path="packages/services/Telephony" name="abc_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="abc" />
+
+  <!-- Platform -->
+  <project path="platform_testing" name="abc_platform_testing" remote="abc" />
+
+  <!-- System -->
+  <project path="system/core" name="abc_system_core" groups="pdk" remote="abc" />
+  <project path="system/extras" name="abc_system_extras" groups="pdk" remote="abc" />
+  <project path="system/media" name="abc_system_media" groups="pdk" remote="abc" />
+  <project path="system/sepolicy" name="abc_system_sepolicy" groups="pdk" remote="abc" />
+  <project path="system/vold" name="abc_system_vold" remote="abc" />
+
+  <!-- Vendor -->
+  <project path="vendor/support" name="abc_vendor_support" remote="abc" />
+  <project path="vendor/pixelgapps" name="ezio84/android_vendor_pixelgapps" remote="gitlab" revision="q" />
+
+  <!-- DU Repo's -->
+
+  <!-- External -->
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="du" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="du" />
+
+  <!-- Hardware -->
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="du" />
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="du" >
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="du" revision="q10x-caf-8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="du" revision="q10x-caf-8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="du" revision="q10x-caf-8996" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="du" revision="q10x-caf" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="du" />
+
+  <!-- System -->
+  <project path="system/bt" name="android_system_bt" remote="du" />
+
+  <!-- Toolchains -->
+  <project path="prebuilts/clang/host/linux-x86" name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" remote="gitlab" revision="q10x" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="du" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="du" />
+
+
+<!-- Scorpion Repo's -->
+
+  <!-- General -->
   <project path="manifest" name="scorpion_manifest" remote="scorp" />
   <project path="build/make" name="build_make" remote="scorp" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -31,8 +132,9 @@
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="scorp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="scorp" />
-  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scorp" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="scorp" />
+
+  <!-- System -->
+  <project path="system/update_engine" name="system_update_engine" remote="scorp" />
 
   <!-- Vendor -->
   <project path="vendor/scorpion" name="vendor_scorpion" remote="scorp" >
@@ -40,5 +142,10 @@
   </project>
   <project path="vendor/extras" name="vendor_extras" remote="scorp" />
   <project path="vendor/themes" name="vendor_themes" remote="scorp" />
+
+  <!-- Scripts -->
+  <project path="scripts" name="scripts" remote="abc" revision="q" />
+  <!-- <project path="scripts/vendor-blobs-extractfromfactory" name="vendor-blobs-extractfromfactory" remote="abc" revision="q" />-->
+  <project path="scripts/enjarify-prebuiltApkExtraction" name="enjarify-prebuiltApkExtraction" remote="abc" />
 
 </manifest>
