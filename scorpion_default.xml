@@ -16,6 +16,11 @@
            revision="sr-3.x"
            fetch="https://github.com/ScorpionRom/" />
 
+  <!-- Scorpion Gerrit -->
+  <remote  name="srg"
+           revision="sr-3.x"
+           fetch="https://gerrit.scorpionrom.com/" />
+
   <!-- Github remote -->
   <remote  name="github"
            fetch="https://github.com/" />
@@ -69,7 +74,7 @@
 
   <!-- Vendor -->
   <project path="vendor/support" name="abc_vendor_support" remote="abc" />
-  <project path="vendor/pixelgapps" name="ezio84/android_vendor_pixelgapps" remote="gitlab" revision="q" />
+  <project path="vendor/pixelgapps" name="vendor_pixelgapps" remote="srg" revision="sr-3.x" />
 
   <!-- DU Repo's -->
 
