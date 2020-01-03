@@ -116,6 +116,7 @@
   <remove-project name="platform/packages/apps/Stk" />
   <remove-project name="platform/packages/apps/Terminal" />
   <remove-project name="platform/packages/apps/Test/connectivity" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/packages/apps/WallpaperPicker" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
