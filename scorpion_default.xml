@@ -34,7 +34,6 @@
   <!-- General -->
   <project path="bionic" name="abc_bionic" remote="abc" groups="pdk" />
   <project path="build/kati" name="abc_build_kati" remote="abc" groups="pdk,tradefed" />
-  <project path="bootable/recovery" name="abc_bootable_recovery" groups="pdk" remote="abc" />
 
   <!-- External -->
   <project path="external/selinux" name="abc_external_selinux" remote="abc" />
@@ -73,9 +72,11 @@
 
   <!-- Vendor -->
   <project path="vendor/support" name="abc_vendor_support" remote="abc" />
-  <project path="vendor/pixelgapps" name="vendor_pixelgapps" remote="srg" revision="sr-3.x" />
 
   <!-- DU Repo's -->
+
+  <!-- General -->
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="du" />
 
   <!-- External -->
   <project path="external/tinycompress" name="android_external_tinycompress" remote="du" />
@@ -148,6 +149,7 @@
   </project>
   <project path="vendor/extras" name="vendor_extras" remote="scorp" />
   <project path="vendor/themes" name="vendor_themes" remote="scorp" />
+  <project path="vendor/pixelgapps" name="vendor_pixelgapps" remote="srg" revision="sr-3.x" />
 
   <!-- Scripts -->
   <project path="scripts" name="scripts" remote="abc" revision="q" />
