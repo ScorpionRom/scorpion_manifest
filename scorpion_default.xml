@@ -132,7 +132,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="scorp" />
 
   <!-- External -->
-<!--  <project path="external/google" name="external_google" remote="scorp" /> -->
+  <project path="external/google" name="external_google" remote="scorp" />
 
   <!-- Packages -->
   <project path="packages/apps/DU-Themes" name="packages_apps_DU-Themes" remote="scorp" />
