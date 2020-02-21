@@ -70,9 +70,6 @@
   <project path="system/sepolicy" name="abc_system_sepolicy" groups="pdk" remote="abc" />
   <project path="system/vold" name="abc_system_vold" remote="abc" />
 
-  <!-- Vendor -->
-  <project path="vendor/support" name="abc_vendor_support" remote="abc" />
-
   <!-- DU Repo's -->
 
   <!-- General -->
@@ -150,6 +147,7 @@
     <linkfile src="scripts/merge-aosp.py" dest="merge-aosp.py" />
   </project>
   <project path="vendor/extras" name="vendor_extras" remote="scorp" />
+  <project path="vendor/support" name="vendor_support" remote="scorp" />
   <project path="vendor/themes" name="vendor_themes" remote="scorp" />
   <project path="vendor/pixelgapps" name="vendor_pixelgapps" remote="srg" revision="sr-3.x" />
 
