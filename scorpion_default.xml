@@ -16,10 +16,10 @@
            revision="sr-3.x"
            fetch="https://github.com/ScorpionRom/" />
 
-  <!-- Scorpion Gerrit -->
-  <remote  name="srg"
+  <!-- Scorpion Git -->
+  <remote  name="srgit"
            revision="sr-3.x"
-           fetch="https://gerrit.scorpionrom.com/" />
+           fetch="https://git.scorpionrom.com/" />
 
   <!-- Github remote -->
   <remote  name="github"
@@ -148,7 +148,10 @@
   <project path="vendor/extras" name="vendor_extras" remote="scorp" />
   <project path="vendor/support" name="vendor_support" remote="scorp" />
   <project path="vendor/themes" name="vendor_themes" remote="scorp" />
-  <project path="vendor/pixelgapps" name="vendor_pixelgapps" remote="srg" revision="sr-3.x" />
+
+  <!-- Extras -->
+  <project path="vendor/pixelgapps" name="pixelgapps" remote="srgit" revision="sr-3.x" />
+  <project path="vendor/images" name="vendor_images" remote="srgit" revision="sr-3.x" />
 
   <!-- Scripts -->
   <project path="scripts" name="scripts" remote="abc" revision="q" />
