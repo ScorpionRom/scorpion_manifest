@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Build -->
-  <remove-project name="platform/build/kati" />
-
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
@@ -57,9 +54,7 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- External -->
-  <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/toybox" />
 
   <!-- General -->
   <remove-project name="platform/bionic" />
@@ -73,7 +68,6 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
-  <remove-project name="platform/frameworks/rs" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/invensense" />
@@ -87,7 +81,6 @@
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Camera2" />
-  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/DevCamera" />
@@ -100,10 +93,8 @@
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Music" />
-  <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
-  <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/SampleLocationAttribution" />
@@ -133,11 +124,8 @@
   <!-- System -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/extras" />
-  <remove-project name="platform/system/media" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
-  <remove-project name="platform/system/vold" />
 
   <!-- Toolchains -->
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
