@@ -6,7 +6,10 @@ Getting Started
 
 To get started with building Scorpion Rom, you'll need to get familiar with Git and Repo.
 
-Initialize Source (Assuming you have a valid build environment setup):
+Setting up the Build Environment:
+Use this [Guide](https://raw.githubusercontent.com/nathanchance/Android-Tools/master/Guides/Building_AOSP.txt) as a reference for getting started
+
+Initialize Source:
 
         mkdir scorpion (or whatever you want to name the source folder)
 
@@ -21,8 +24,9 @@ Build Source:
 
         . build/envsetup.sh
         lunch scorpion_crosshatch-userdebug (or whichever device you are building for, change out "crosshatch")
-        mka clean
-        mka bacon
+        make clean
+        make bacon
+
 Submitting Patches
 ------------------
 We're open source, and patches are always welcome!
@@ -35,6 +39,8 @@ Credits:
 Google for AOSP
 
 Everyone at Dirty Unicorns
+
+Ezio at ABC
 
 Rinky McBally for our beloved logo and Wallpapers
 
