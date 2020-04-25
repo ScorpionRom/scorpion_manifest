@@ -42,7 +42,9 @@ Everyone at Dirty Unicorns
 
 Ezio at ABC
 
-Rinky McBally for our beloved logo and Wallpapers
+Rinky McBally for our beloved logo
+
+ROGERdotT (Roger Truttmann) for the v3.x wallpapers
 
 Others we may have missed
 
