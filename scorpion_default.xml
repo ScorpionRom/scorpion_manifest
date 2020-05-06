@@ -42,12 +42,7 @@
   <project path="packages/apps/Bluetooth" name="abc_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="abc" />
   <project path="packages/apps/DocumentsUI" name="abc_packages_apps_DocumentsUI" remote="abc" />
   <project path="packages/apps/EmergencyInfo" name="abc_packages_apps_EmergencyInfo" remote="abc" />
-  <project path="packages/apps/PermissionController" name="abc_packages_apps_PackageInstaller" groups="pdk-fs" remote="abc" />
-  <project path="packages/apps/Stk" name="abc_packages_apps_Stk" remote="abc" />
   <project path="packages/providers/DownloadProvider" name="abc_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" />
-  <project path="packages/providers/MediaProvider" name="abc_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" />
-  <project path="packages/providers/TelephonyProvider" name="abc_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" />
-  <project path="packages/services/Telecomm" name="abc_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="abc" />
   <project path="packages/services/Telephony" name="abc_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="abc" />
 
   <!-- Platform -->
