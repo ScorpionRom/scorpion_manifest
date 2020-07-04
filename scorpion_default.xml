@@ -19,7 +19,7 @@
   <!-- Scorpion Git -->
   <remote  name="srgit"
            revision="sr-3.x"
-           fetch="https://git.scorpionrom.com/" />
+           fetch="https://git.scorpionrom.com/srx/" />
 
   <!-- Github remote -->
   <remote  name="github"
@@ -132,8 +132,7 @@
   <project path="vendor/themes" name="vendor_themes" remote="scorp" />
 
   <!-- Extras -->
-  <project path="vendor/pixelgapps" name="pixelgapps" remote="srgit" revision="sr-3.x" />
-  <project path="vendor/images" name="vendor_images" remote="srgit" revision="sr-3.x" />
+  <project path="vendor/pixelgapps" name="vendor_pixelgapps" remote="srgit" revision="sr-3.x" />
 
   <!-- Scripts -->
   <project path="scripts" name="scripts" remote="abc" revision="q" />
