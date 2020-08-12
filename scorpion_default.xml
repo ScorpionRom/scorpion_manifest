@@ -112,6 +112,7 @@
 
   <!-- External -->
   <project path="external/google" name="external_google" remote="scorp" />
+  <project path="external/pulse" name="external_pulse" remote="scorp" />
 
   <!-- Packages -->
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="scorp" />
