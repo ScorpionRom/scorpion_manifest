@@ -41,7 +41,6 @@
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="abc_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="abc" />
   <project path="packages/providers/DownloadProvider" name="abc_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" />
-  <project path="packages/services/Telephony" name="abc_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="abc" />
 
   <!-- Platform -->
   <project path="platform_testing" name="abc_platform_testing" remote="abc" />
@@ -59,6 +58,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="du" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" />
@@ -78,6 +78,7 @@
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="du" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="du" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="du" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="du" />
   <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" remote="du" />
 
   <!-- Prebuilts -->
@@ -91,8 +92,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="du" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="du" />
 
-
-<!-- Scorpion Repo's -->
+  <!-- Scorpion Repo's -->
 
   <!-- General -->
   <project path="manifest" name="scorpion_manifest" remote="scorp" />
@@ -122,6 +122,7 @@
   <project path="packages/apps/DU-Themes" name="packages_apps_DU-Themes" remote="scorp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="scorp" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scorp" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="scorp" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="scorp" />
