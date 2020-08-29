@@ -39,7 +39,6 @@
   <project path="frameworks/native" name="abc_frameworks_native" groups="pdk" remote="abc" />
 
   <!-- Packages -->
-  <project path="packages/apps/Bluetooth" name="abc_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="abc" />
   <project path="packages/providers/DownloadProvider" name="abc_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" />
 
   <!-- Platform -->
@@ -75,6 +74,7 @@
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="du" revision="q10x-caf" />
 
   <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="du" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="du" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="du" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="du" />
@@ -130,7 +130,7 @@
 
   <!-- Vendor -->
   <project path="vendor/scorpion" name="vendor_scorpion" remote="scorp" >
-    <linkfile src="scripts/merge-aosp.py" dest="merge-aosp.py" />
+    <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <project path="vendor/extras" name="vendor_extras" remote="scorp" />
   <project path="vendor/support" name="vendor_support" remote="scorp" />
@@ -138,10 +138,5 @@
 
   <!-- Extras -->
   <project path="vendor/pixelgapps" name="vendor_pixelgapps" remote="srgit" revision="sr-3.x" />
-
-  <!-- Scripts -->
-  <project path="scripts" name="scripts" remote="abc" revision="q" />
-  <!-- <project path="scripts/vendor-blobs-extractfromfactory" name="vendor-blobs-extractfromfactory" remote="abc" revision="q" />-->
-  <project path="scripts/enjarify-prebuiltApkExtraction" name="enjarify-prebuiltApkExtraction" remote="abc" />
 
 </manifest>
