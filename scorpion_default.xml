@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github remote -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- Scorpion remote -->
+  <remote  name="scorp"
+           revision="sr-3.x"
+           fetch="https://github.com/ScorpionRom/" />
+
+  <!-- Scorpion Git -->
+  <remote  name="srgit"
+           revision="sr-3.x"
+           fetch="https://git.scorpionrom.com/srx/" />
+
+  <!-- Scorpion Repo's -->
+
+  <!-- General -->
+<!--  <project path="manifest" name="scorpion_manifest" remote="scorp" />
+  <project path="build/make" name="build_make" remote="scorp" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="scorp" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project> -->
+
+  <!-- Frameworks -->
+<!--  <project path="frameworks/base" name="frameworks_base" remote="scorp" /> -->
+
+  <!-- External -->
+<!--  <project path="external/google" name="external_google" remote="scorp" />
+  <project path="external/pulse" name="external_pulse" remote="scorp" /> -->
+
+  <!-- Packages -->
+<!--  <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="scorp" />
+  <project path="packages/apps/DU-Themes" name="packages_apps_DU-Themes" remote="scorp" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="scorp" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scorp" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="scorp" /> -->
+
+  <!-- System -->
+<!--  <project path="system/core" name="system_core" remote="scorp" />
+  <project path="system/update_engine" name="system_update_engine" remote="scorp" /> -->
+
+  <!-- Vendor -->
+<!--  <project path="vendor/scorpion" name="vendor_scorpion" remote="scorp" >
+    <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
+  </project>
+  <project path="vendor/extras" name="vendor_extras" remote="scorp" />
+  <project path="vendor/support" name="vendor_support" remote="scorp" />
+  <project path="vendor/themes" name="vendor_themes" remote="scorp" /> -->
+
+  <!-- Extras -->
+<!--  <project path="vendor/pixelgapps" name="vendor_pixelgapps" remote="srgit" revision="sr-3.x" /> -->
+
+
+</manifest>

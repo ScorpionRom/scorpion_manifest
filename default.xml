@@ -825,4 +825,10 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- Remove repos -->
+  <include name="remove.xml" />
+
+  <!-- Include repos -->
+  <include name="scorpion_default.xml" />
+
 </manifest>
