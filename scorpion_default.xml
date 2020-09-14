@@ -35,7 +35,7 @@
   </project>
 
   <!-- Frameworks -->
-<!--  <project path="frameworks/base" name="frameworks_base" remote="scorp" /> -->
+  <project path="frameworks/base" name="frameworks_base" remote="scorp" />
 
   <!-- External -->
 <!--  <project path="external/google" name="external_google" remote="scorp" />
@@ -49,8 +49,8 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="scorp" /> -->
 
   <!-- System -->
-<!--  <project path="system/core" name="system_core" remote="scorp" />
-  <project path="system/update_engine" name="system_update_engine" remote="scorp" /> -->
+  <project path="system/core" name="system_core" remote="scorp" />
+<!--  <project path="system/update_engine" name="system_update_engine" remote="scorp" /> -->
 
   <!-- Vendor -->
 <!--  <project path="vendor/scorpion" name="vendor_scorpion" remote="scorp" >
