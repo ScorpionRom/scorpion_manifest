@@ -40,6 +40,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="scorp" />
 
   <!-- External -->
+  <project path="external/selinux" name="external_selinux" remote="scorp" />
 <!--  <project path="external/google" name="external_google" remote="scorp" />
   <project path="external/pulse" name="external_pulse" remote="scorp" /> -->
 
@@ -47,8 +48,8 @@
 <!--  <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="scorp" />
   <project path="packages/apps/DU-Themes" name="packages_apps_DU-Themes" remote="scorp" />-->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="scorp" />
-<!--  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scorp" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="scorp" /> -->
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scorp" />
+<!--  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="scorp" /> -->
 
  <!-- Platform -->
   <project path="platform_testing" name="platform_testing" remote="scorp" />
