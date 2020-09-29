@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github remote -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- Scorpion remote -->
+  <remote  name="scorp"
+           revision="sr4"
+           fetch="https://github.com/ScorpionRom/" />
+
+  <!-- Scorpion Git -->
+  <remote  name="srgit"
+           revision="sr4"
+           fetch="https://git.scorpionrom.com/srx/" />
+
+  <!-- DU -->
+  <remote  name="du"
+           revision="r11x"
+           fetch="https://github.com/DirtyUnicorns/" />
+
+  <!-- DU REPOS -->
+
+  <!-- General -->
+  <project path="bionic" name="android_bionic" remote="du" />
+  <project path="platform_testing" name="android_platform_testing" remote="du" />
+
+  <!-- External -->
+  <project path="external/guice" name="android_external_guice" remote="du" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/native" name="android_frameworks_native" remote="du" />
+
+  <!-- Hardware -->
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="du" />
+  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="du" />
+
+  <!-- System -->
+  <project path="system/bt" name="android_system_bt" remote="du" />
+  <project path="system/core" name="android_system_core" remote="du" />
+  <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="du" />
+
+  <!-- Scorpion Repo's -->
+
+  <!-- General -->
+  <project path="build/make" name="build_make" remote="scorp" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="scorp" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="manifest" name="scorpion_manifest" remote="scorp" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="frameworks_base" remote="scorp" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="scorp" />
+
+  <!-- Vendor -->
+  <project path="vendor/scorpion" name="vendor_scorpion" remote="scorp" >
+    <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
+  </project>
+  <project path="vendor/extras" name="vendor_extras" remote="scorp" />
+
+</manifest>

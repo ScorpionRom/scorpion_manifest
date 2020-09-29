@@ -2,11 +2,13 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-11.0.0_r3"
            remote="aosp"
-           sync-j="4" />
+           sync-c="true"
+           sync-f="true"
+           sync-j="8" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -825,4 +827,9 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- Remove unused AOSP repos -->
+  <include name="remove.xml" />
+
+  <!-- Add all tracked DU//Scorpion/AOSP repos -->
+  <include name="scorpion_default.xml" />
 </manifest>
