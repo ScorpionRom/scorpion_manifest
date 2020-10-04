@@ -38,6 +38,9 @@
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="du" />
   <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="du" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="du" />
+
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="du" />
   <project path="system/core" name="android_system_core" remote="du" />
