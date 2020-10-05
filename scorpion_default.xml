@@ -65,10 +65,14 @@
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="scorp" />
 
+  <!-- System -->
+  <project path="system/update_engine" name="system_update_engine" remote="scorp" />
+
   <!-- Vendor -->
   <project path="vendor/scorpion" name="vendor_scorpion" remote="scorp" >
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <project path="vendor/extras" name="vendor_extras" remote="scorp" />
+  <project path="vendor/themes" name="vendor_themes" remote="scorp" />
 
 </manifest>
