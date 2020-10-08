@@ -28,11 +28,13 @@
 
   <!-- External -->
   <project path="external/guice" name="android_external_guice" remote="du" />
+  <project path="external/mksh" name="android_external_mksh" remote="du" />
 
   <!-- Frameworks -->
   <project path="frameworks/native" name="android_frameworks_native" remote="du" />
 
   <!-- Hardware -->
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="du" />
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="du" />
   <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="du" />
 
@@ -40,10 +42,14 @@
   <project path="system/bt" name="android_system_bt" remote="du" />
   <project path="system/core" name="android_system_core" remote="du" />
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="du" />
+  <project path="system/libufdt" name="android_system_libufdt" remote="du" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="du" />
+  <project path="system/vold" name="android_system_vold" remote="du" />
 
   <!-- Scorpion Repo's -->
 
   <!-- General -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="scorp" />
   <project path="build/make" name="build_make" remote="scorp" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />

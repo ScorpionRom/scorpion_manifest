@@ -63,6 +63,7 @@
 
   <!-- External -->
   <remove-project name="platform/external/guice" />
+  <remove-project name="platform/external/mksh" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
@@ -70,11 +71,13 @@
 
   <!-- General -->
   <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/platform_testing" />
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/qcom/sm8150/display" />
 
@@ -108,7 +111,10 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/incremental_delivery" />
+  <remove-project name="platform/system/libufdt" />
+  <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/vold" />
 
   <!-- Toolchains -->
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
