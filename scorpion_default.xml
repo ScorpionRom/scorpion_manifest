@@ -70,6 +70,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="scorp" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scorp" />
 
   <!-- System -->
   <project path="system/update_engine" name="system_update_engine" remote="scorp" />
