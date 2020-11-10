@@ -113,6 +113,7 @@
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <project path="vendor/extras" name="vendor_extras" remote="scorp" />
+  <project path="vendor/support" name="vendor_support" remote="scorp" />
   <project path="vendor/themes" name="vendor_themes" remote="scorp" />
 
 </manifest>
