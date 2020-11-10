@@ -66,7 +66,7 @@
   <project path="vendor/scorpion" name="vendor_scorpion" remote="scorp" >
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
-<!-->  <project path="vendor/support" name="vendor_support" remote="scorp" /> -->
+  <project path="vendor/support" name="vendor_support" remote="scorp" />
   <project path="vendor/themes" name="vendor_themes" remote="scorp" />
 
   <!-- Add Lineage repos -->
