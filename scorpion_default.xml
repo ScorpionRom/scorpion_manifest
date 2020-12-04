@@ -15,6 +15,11 @@
            revision="sr4"
            fetch="https://git.scorpionrom.com/srx/" />
 
+  <!-- ABC -->
+  <remote  name="abc"
+           revision="r"
+           fetch="https://github.com/ezio84/" />
+
   <!-- DU -->
   <remote  name="du"
            revision="r11x"
@@ -101,6 +106,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="scorp" />
 
   <!-- Packages -->
+  <project path="packages/apps/ElmyraService" name="abc_packages_apps_ElmyraService" remote="abc" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="scorp" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scorp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="scorp" />
