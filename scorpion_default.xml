@@ -8,7 +8,8 @@
   <!-- Scorpion remote -->
   <remote  name="scorp"
            revision="sr4"
-           fetch="https://github.com/ScorpionRom/" />
+           fetch="https://github.com/ScorpionRom/"
+           review="https://gerrit.scorpionrom.com/" />
 
   <!-- Scorpion Git -->
   <remote  name="srgit"
