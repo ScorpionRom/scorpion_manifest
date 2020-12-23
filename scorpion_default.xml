@@ -96,6 +96,9 @@
   </project>
   <project path="manifest" name="scorpion_manifest" remote="scorp" />
 
+  <!-- External -->
+  <project path="external/pulse" name="abc_external_pulse" remote="abc" />
+
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="scorp" />
   <project path="frameworks/base" name="frameworks_base" remote="scorp" />
