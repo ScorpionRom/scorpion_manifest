@@ -26,6 +26,7 @@
            revision="r11x"
            fetch="https://github.com/DirtyUnicorns/" />
 
+
   <!-- DU REPOS -->
 
   <!-- General -->
@@ -74,8 +75,6 @@
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="du" />
   <project path="system/vold" name="android_system_vold" remote="du" />
 
-  <!-- Toolchains -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="du" />
 
   <!-- Scorpion Repo's -->
 
@@ -116,6 +115,11 @@
   <!-- System -->
   <project path="system/core" name="system_core" remote="scorp" />
   <project path="system/update_engine" name="system_update_engine" remote="scorp" />
+
+  <!-- Toolchains -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="scorp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="scorp" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="scorp" />
 
   <!-- Vendor -->
   <project path="vendor/scorpion" name="vendor_scorpion" remote="scorp" >
