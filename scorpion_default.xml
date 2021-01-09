@@ -105,6 +105,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="scorp" />
 
   <!-- Packages -->
+  <project path="packages/apps/DU-Themes" name="packages_apps_DU-Themes" remote="scorp" />
   <project path="packages/apps/ElmyraService" name="abc_packages_apps_ElmyraService" remote="abc" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="scorp" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scorp" />
