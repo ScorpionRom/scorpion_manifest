@@ -109,6 +109,7 @@
   <project path="packages/apps/ElmyraService" name="abc_packages_apps_ElmyraService" remote="abc" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="scorp" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scorp" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="scorp" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="scorp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="scorp" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="scorp" />
