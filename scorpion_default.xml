@@ -11,10 +11,10 @@
            fetch="https://github.com/ScorpionRom/"
            review="https://gerrit.scorpionrom.com/" />
 
-  <!-- Scorpion Git -->
-  <remote  name="srgit"
+  <!-- Scorpion Gerrit -->
+  <remote  name="gerrit"
            revision="sr4"
-           fetch="https://git.scorpionrom.com/srx/" />
+           fetch="https://gerrit.scorpionrom.com" />
 
   <!-- ABC -->
   <remote  name="abc"
