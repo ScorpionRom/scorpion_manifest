@@ -29,16 +29,6 @@
 
   <!-- DU REPOS -->
 
-  <!-- General -->
-  <project path="bionic" name="android_bionic" remote="du" />
-  <project path="platform_testing" name="android_platform_testing" remote="du" />
-
-  <!-- External -->
-  <project path="external/guice" name="android_external_guice" remote="du" />
-  <project path="external/mksh" name="android_external_mksh" remote="du" />
-  <project path="external/selinux" name="android_external_selinux" remote="du" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="du" />
-
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="du" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" />
@@ -63,22 +53,14 @@
   <!-- Packages -->
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="du" />
 
-  <!-- Prebuilts -->
-  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="du" />
-  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="du" />
-
   <!-- System -->
-  <project path="system/bt" name="android_system_bt" remote="du" />
-  <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="du" />
-  <project path="system/libufdt" name="android_system_libufdt" remote="du" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="du" />
-  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="du" />
   <project path="system/vold" name="android_system_vold" remote="du" />
 
 
-  <!-- Scorpion Repo's -->
+  <!-- Scorpion/ABC Repo's -->
 
   <!-- General -->
+  <project path="bionic" name="abc_bionic" remote="abc" />
   <project path="bootable/recovery" name="bootable_recovery" remote="scorp" />
   <project path="build/make" name="build_make" remote="scorp" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -94,15 +76,17 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="manifest" name="scorpion_manifest" remote="scorp" />
+  <project path="platform_testing" name="abc_platform_testing" remote="abc" />
 
   <!-- External -->
+  <project path="external/guice" name="abc_external_guice" remote="abc" />
+  <project path="external/mksh" name="abc_external_mksh" remote="abc" />
   <project path="external/pulse" name="abc_external_pulse" remote="abc" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="scorp" />
   <project path="frameworks/base" name="frameworks_base" remote="scorp" />
   <project path="frameworks/native" name="frameworks_native" remote="scorp" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="scorp" />
 
   <!-- Packages -->
   <project path="packages/apps/DU-Themes" name="packages_apps_DU-Themes" remote="scorp" />
@@ -110,12 +94,18 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="scorp" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scorp" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="scorp" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="scorp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="scorp" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="scorp" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="abc_prebuilts_build-tools" remote="abc" />
+
   <!-- System -->
+  <project path="system/bt" name="abc_system_bt" remote="abc" />
   <project path="system/core" name="system_core" remote="scorp" />
+  <project path="system/incremental_delivery" name="abc_system_incremental_delivery" remote="abc" />
+  <project path="system/libufdt" name="abc_system_libufdt" remote="abc" />
+  <project path="system/sepolicy" name="abc_system_sepolicy" remote="abc" />
   <project path="system/update_engine" name="system_update_engine" remote="scorp" />
 
   <!-- Toolchains -->
