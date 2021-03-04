@@ -30,9 +30,6 @@
   <!-- DU REPOS -->
 
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="du" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" />
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="du" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="du" >
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
@@ -52,9 +49,6 @@
 
   <!-- Packages -->
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="du" />
-
-  <!-- System -->
-  <project path="system/vold" name="android_system_vold" remote="du" />
 
 
   <!-- Scorpion/ABC Repo's -->
@@ -107,6 +101,7 @@
   <project path="system/libufdt" name="abc_system_libufdt" remote="abc" />
   <project path="system/sepolicy" name="abc_system_sepolicy" remote="abc" />
   <project path="system/update_engine" name="system_update_engine" remote="scorp" />
+  <project path="system/vold" name="system_vold" remote="scorp" />
 
   <!-- Toolchains -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="scorp" />

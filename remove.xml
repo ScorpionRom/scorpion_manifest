@@ -81,10 +81,7 @@
   <remove-project name="platform/platform_testing" />
 
   <!-- Hardware -->
-  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/invensense" />
-  <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/qcom/sm8150/display" />
   <remove-project name="platform/hardware/ti/am57x" />
