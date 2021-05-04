@@ -92,7 +92,7 @@
   <project path="prebuilts/build-tools" name="abc_prebuilts_build-tools" remote="abc" />
 
   <!-- System -->
-  <project path="system/bt" name="abc_system_bt" remote="abc" />
+  <project path="system/bt" name="system_bt" remote="scorp" />
   <project path="system/core" name="system_core" remote="scorp" />
   <project path="system/incremental_delivery" name="abc_system_incremental_delivery" remote="abc" />
   <project path="system/libufdt" name="abc_system_libufdt" remote="abc" />
