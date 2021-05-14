@@ -69,6 +69,7 @@
   <project path="platform_testing" name="abc_platform_testing" remote="abc" />
 
   <!-- External -->
+  <project path="external/faceunlock" name="external_faceunlock" remote="gerrit" />
   <project path="external/guice" name="abc_external_guice" remote="abc" />
   <project path="external/mksh" name="abc_external_mksh" remote="abc" />
   <project path="external/pulse" name="abc_external_pulse" remote="abc" />
@@ -81,6 +82,7 @@
   <!-- Packages -->
   <project path="packages/apps/DU-Themes" name="packages_apps_DU-Themes" remote="scorp" />
   <project path="packages/apps/ElmyraService" name="abc_packages_apps_ElmyraService" remote="abc" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="scorp" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="scorp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="scorp" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scorp" />
