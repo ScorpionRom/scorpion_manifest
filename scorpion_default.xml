@@ -91,7 +91,7 @@
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="scorp" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/build-tools" name="abc_prebuilts_build-tools" remote="abc" />
+  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="scorp" />
 
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="scorp" />
