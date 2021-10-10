@@ -14,7 +14,8 @@ Initialize Source:
         mkdir srx (or whatever you want to name the source folder)
 
         cd ~/srx
-        repo init -u https://github.com/ScorpionRom/scorpion_manifest.git -b sr4
+
+        repo init -u https://github.com/ScorpionRom/scorpion_manifest.git -b sr5
 
 Sync Source:
 
