@@ -37,14 +37,12 @@
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
   </project>
-<!--  <project path="hardware/qcom/sdm845/display" name="hardware_qcom_sdm845_display" remote="scorp" /> -->
-<!--  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="du" /> -->
 
   <!-- Scorpion/ABC Repo's -->
 
   <!-- General -->
-<!--  <project path="bionic" name="abc_bionic" remote="abc" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="scorp" /> -->
+  <project path="bionic" name="bionic" remote="scorp" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="scorp" />
   <project path="build/make" name="build_make" remote="scorp" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -62,29 +60,35 @@
 <!--  <project path="platform_testing" name="abc_platform_testing" remote="abc" /> -->
 
   <!-- External -->
-<!--  <project path="external/faceunlock" name="external_faceunlock" remote="gerrit" />
-  <project path="external/guice" name="abc_external_guice" remote="abc" />
-  <project path="external/mksh" name="abc_external_mksh" remote="abc" />
-  <project path="external/pulse" name="abc_external_pulse" remote="abc" /> -->
+<!--  <project path="external/faceunlock" name="external_faceunlock" remote="gerrit" /> -->
+<!--  <project path="external/guice" name="abc_external_guice" remote="abc" /> -->
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="scorp" />
+  <project path="external/mksh" name="external_mksh" remote="scorp" />
+<!--  <project path="external/pulse" name="abc_external_pulse" remote="abc" /> -->
 
   <!-- Frameworks -->
-<!--  <project path="frameworks/av" name="frameworks_av" remote="scorp" />
+<!--  <project path="frameworks/av" name="frameworks_av" remote="scorp" /> -->
   <project path="frameworks/base" name="frameworks_base" remote="scorp" />
-  <project path="frameworks/native" name="frameworks_native" remote="scorp" /> -->
+<!-->  <project path="frameworks/native" name="frameworks_native" remote="scorp" /> -->
+
+  <!-- Hardware -->
+  <project path="hardware/qcom/sdm845/display" name="hardware_qcom_sdm845_display" remote="scorp" />
+  <project path="hardware/qcom/sm8150/display" name="hardware_qcom_sm8150_display" remote="scorp" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="scorp" />
 
   <!-- Packages -->
 <!--  <project path="packages/apps/DU-Themes" name="packages_apps_DU-Themes" remote="scorp" />
   <project path="packages/apps/ElmyraService" name="abc_packages_apps_ElmyraService" remote="abc" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="scorp" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="scorp" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="scorp" /> -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="scorp" />
-  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scorp" />
+<!--  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scorp" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="scorp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="scorp" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="scorp" /> -->
 
   <!-- Prebuilts -->
-<!-->  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="scorp" /> -->
+<!--  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="scorp" /> -->
 
   <!-- System -->
 <!--  <project path="system/bt" name="system_bt" remote="scorp" />
@@ -96,9 +100,9 @@
   <project path="system/vold" name="system_vold" remote="scorp" /> -->
 
   <!-- Toolchains -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="scorp" />
+<!-->  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="scorp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="scorp" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="scorp" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="scorp" /> -->
 
   <!-- Vendor -->
   <project path="vendor/scorpion" name="vendor_scorpion" remote="scorp" >

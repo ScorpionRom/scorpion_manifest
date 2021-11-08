@@ -4,6 +4,8 @@
   <!-- General -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/recovery" />
 
   <!-- Devices -->
   <remove-project name="device/amlogic/yukawa" />
@@ -68,8 +70,20 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
+  <!-- External -->
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/mksh" />
+
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/base" />
+
   <!-- Hardware -->
-<!--  <remove-project name="platform/hardware/qcom/sdm845/display" /> -->
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/sm8150/display" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Settings" />
 
   <!-- Toolchains -->
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
@@ -77,9 +91,9 @@
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+<!-->  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" /> -->
   <remove-project name="platform/prebuilts/gdb/darwin-x86" />
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
