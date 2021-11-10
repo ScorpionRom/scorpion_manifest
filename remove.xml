@@ -72,6 +72,7 @@
 
   <!-- External -->
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
 
   <!-- Frameworks -->
@@ -84,6 +85,11 @@
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
+
+  <!-- System -->
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/update_engine" />
 
   <!-- Toolchains -->
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />

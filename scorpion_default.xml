@@ -63,6 +63,7 @@
 <!--  <project path="external/faceunlock" name="external_faceunlock" remote="gerrit" /> -->
 <!--  <project path="external/guice" name="abc_external_guice" remote="abc" /> -->
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="scorp" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="scorp" />
   <project path="external/mksh" name="external_mksh" remote="scorp" />
 <!--  <project path="external/pulse" name="abc_external_pulse" remote="abc" /> -->
 
@@ -91,13 +92,13 @@
 <!--  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="scorp" /> -->
 
   <!-- System -->
-<!--  <project path="system/bt" name="system_bt" remote="scorp" />
+<!--  <project path="system/bt" name="system_bt" remote="scorp" /> -->
   <project path="system/core" name="system_core" remote="scorp" />
-  <project path="system/incremental_delivery" name="abc_system_incremental_delivery" remote="abc" />
-  <project path="system/libufdt" name="abc_system_libufdt" remote="abc" />
-  <project path="system/sepolicy" name="abc_system_sepolicy" remote="abc" />
+<!--  <project path="system/incremental_delivery" name="abc_system_incremental_delivery" remote="abc" />
+  <project path="system/libufdt" name="abc_system_libufdt" remote="abc" /> -->
+  <project path="system/sepolicy" name="system_sepolicy" remote="scorp" />
   <project path="system/update_engine" name="system_update_engine" remote="scorp" />
-  <project path="system/vold" name="system_vold" remote="scorp" /> -->
+<!--  <project path="system/vold" name="system_vold" remote="scorp" /> -->
 
   <!-- Toolchains -->
 <!-->  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="scorp" />
