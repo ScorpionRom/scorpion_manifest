@@ -73,8 +73,11 @@
 <!-->  <project path="frameworks/native" name="frameworks_native" remote="scorp" /> -->
 
   <!-- Hardware -->
+  <project path="hardware/knowles/athletico/sound_trigger_hal" name="hardware_knowles_athletico_sound_trigger_hal" remote="scorp" />
   <project path="hardware/qcom/sdm845/display" name="hardware_qcom_sdm845_display" remote="scorp" />
+  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="hardware_qcom_sm8150_data_ipacfg-mgr" remote="scorp" />
   <project path="hardware/qcom/sm8150/display" name="hardware_qcom_sm8150_display" remote="scorp" />
+  <project path="hardware/qcom/sm8150/media" name="hardware_qcom_sm8150_media" remote="scorp" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="scorp" />
 
   <!-- Packages -->
@@ -106,6 +109,8 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="scorp" /> -->
 
   <!-- Vendor -->
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="scorp" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="scorp" />
   <project path="vendor/scorpion" name="vendor_scorpion" remote="scorp" >
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
