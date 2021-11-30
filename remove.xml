@@ -88,9 +88,11 @@
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/modules/adb" />
 
   <!-- System -->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
 

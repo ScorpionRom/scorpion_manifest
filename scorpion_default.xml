@@ -90,6 +90,7 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="scorp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="scorp" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="scorp" /> -->
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="scorp" />
 
   <!-- Prebuilts -->
 <!--  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="scorp" /> -->
@@ -97,8 +98,7 @@
   <!-- System -->
 <!--  <project path="system/bt" name="system_bt" remote="scorp" /> -->
   <project path="system/core" name="system_core" remote="scorp" />
-<!--  <project path="system/incremental_delivery" name="abc_system_incremental_delivery" remote="abc" />
-  <project path="system/libufdt" name="abc_system_libufdt" remote="abc" /> -->
+  <project path="system/libziparchive" name="system_libziparchive" remote="scorp" />
   <project path="system/sepolicy" name="system_sepolicy" remote="scorp" />
   <project path="system/update_engine" name="system_update_engine" remote="scorp" />
 <!--  <project path="system/vold" name="system_vold" remote="scorp" /> -->
