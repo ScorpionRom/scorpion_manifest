@@ -38,6 +38,9 @@
   <project path="manifest" name="scorpion_manifest" remote="scorp" />
   <project path="platform_testing" name="platform_testing" remote="scorp" />
 
+  <!-- Devices -->
+  <project path="device/google/cuttlefish" name="ScorpionROM-Devices/device_google_cuttlefish" remote="github" revision="sr5" />
+
   <!-- Frameworks -->
 <!--  <project path="frameworks/av" name="frameworks_av" remote="scorp" /> -->
   <project path="frameworks/base" name="frameworks_base" remote="scorp" />
