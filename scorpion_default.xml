@@ -62,7 +62,6 @@
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="scorp" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="scorp" />
   <project path="system/update_engine" name="system_update_engine" remote="scorp" />
 
   <!-- Vendor -->

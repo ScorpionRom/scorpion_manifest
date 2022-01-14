@@ -6,7 +6,12 @@
            revision="lineage-19.0"
            fetch="https://github.com/LineageOS/" />
 
+  <!-- Device -->
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="los" />
+
   <!-- External -->
+  <project path="external/json-c" name="android_external_json-c" remote="los" />
+  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="los" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="los" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="los" />
   <project path="external/mksh" name="android_external_mksh" remote="los" />
@@ -15,6 +20,7 @@
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="los" />
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="los" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="android_hardware_knowles_athletico_sound_trigger_hal" remote="los" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="los" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="los" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="los" />
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="los" />
@@ -39,6 +45,7 @@
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" clone-depth="1" remote="los" />
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" clone-depth="1" remote="los" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="los" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" clone-depth="1" remote="los" />
@@ -47,6 +54,8 @@
 
   <!-- System -->
   <project path="system/libziparchive" name="android_system_libziparchive" remote="los" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="los" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="los" />
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="los" />
