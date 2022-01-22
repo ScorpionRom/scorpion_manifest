@@ -7,7 +7,7 @@ Getting Started
 To get started with building Scorpion Rom, you'll need to get familiar with Git and Repo.
 
 Setting up the Build Environment:
-You can use this [Guide](https://raw.githubusercontent.com/nathanchance/Android-Tools/master/Guides/Building_AOSP.txt) by nathanchance, there's also a [Guide](https://scorpionrom.com/building-scorpionrom-with-manjaro-linux) on our website specifically for building ScorpionROM using Manjaro Linux.
+You can use this [Guide](https://scorpionrom.com/building-scorpionrom-with-manjaro-linux) on our website specifically for building ScorpionROM using Manjaro Linux, or any other flavor of Arch Linux.  If you're on a Debian based system, such as Ubuntu, use this [Guide](https://source.android.com/setup/build/initializing) from Android source.
 
 Initialize Source:
 
