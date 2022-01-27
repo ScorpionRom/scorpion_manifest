@@ -74,4 +74,7 @@
   <!-- Add Lineage repos -->
   <include name="los.xml" />
 
+  <!-- Add ProtonAOSP repos -->
+  <include name="proton.xml" />
+
 </manifest>
